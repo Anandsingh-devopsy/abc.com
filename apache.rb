@@ -21,7 +21,7 @@ end
 #copy the code from git dev branch to New Doc root - git
 
 git '/var/www/html/abc.com' do
-  repository 'https://github.com/mailrahulsre/abc.com.git'
+  repository 'https://github.com/Anandsingh-devopsy/abc.com.git'
   revision 'dev'
   action :sync
 end
